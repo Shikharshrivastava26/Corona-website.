@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>WEB TECH. PROJECT</title>
+    
+<style>
+    body{
+        margin:0px;
+        padding:0px;
+      
+    }
+.topbar{
+    width:100%;
+    height:70px;
+    background-color:grey;
+    margin:0px;
+}
+#im{
+    height:50px;
+    border-radius:50%;
+    margin:10px;
+    
+}
+    .taskbar{
+        float:left;
+        font-color:light grey;
+        margin:20px;
+        font-size:145%;
+        }
+    #im2{
+        height:10px;
+        margin :0px;
+        
+    }
+    #search{
+        float:right;
+        margin:6px 4px 4px 2px; 
+        
+    }
+    .box{
+        
+        padding:8px;
+        background-color:red;
+        font-color:white;
+        border:1px black solid;
+        height:30px;
+        width:60px;
+        font-size:130%;
+        border-radius:15%;
+    }
+  
+    
+    #last{
+        height:50px;
+         font-size:150%;
+        border-radius:5%;}
+    #second{
+            background-color:#ececec;
+            width:100%;
+            height:470px;
+       
+            
+        }
+    #hd{
+        font-size:70px;
+        padding-left:80px;
+        padding-top:40px;
+        font-weight:900;
+        
+        
+    }
+    #ig{
+        padding:0px;
+        width:300px;
+        height:300px;
+        border-radius:50%;
+        
+        
+        
+        
+    }
+    #qq{
+         padding:0px;
+        width:300px;
+        height:300px;
+        border-radius:50%;
+       margin-top:40px;
+        margin-right:40px;
+        
+        
+    }
+    #lo{
+        width:100%;
+        height:20px;
+        margin:0px;
+        background-color:blue;
+        
+    }
+    #con{
+        font-size:150%;
+        margin-left:80px;
+        padding-right:550px;
+        
+        
+    }
+    #ol{
+        padding-right:50px;
+        padding-top:0px;
+        margin: 0;
+        
+    }
+    #more{
+        display:none;
+    }
+    button{
+        background-color:white;
+        font-color:black;
+        font-size:20px;
+        padding:5px;
+        
+    }
+    #third{
+        background-color:rgba(122,206,199,.82);
+        height:400px;
+        width:100%;
+        margin:0px;
+        
+    }
+    #rr{
+        padding:60px 60px 10px 80px;
+        font-weight:900;
+        font-size:60px;
+    }
+    #tt{
+        font-size:170%;
+        margin-left:80px;
+        padding-right:550px;
+   
+        
+    }
+    #rd{
+        margin-top: 25px;
+        
+    }
+    .topbar a{
+        text-decoration: none;
+       
+    }
+    .topbar a:hover{
+        color:red;
+    }
+    .z{
+        width:70%;
+        height:80px; 
+      
+      
+       
+        background-color: #f1f1f2;
+     
+      
+    }
+    .x{
+        margin-left:80px;
+         font-size:200%;
+    }
+</style>
+</head>
+<body>
+  
+<div class="topbar">
+    <div id="im2" class="taskbar">
+
+            <img id="im" src="im1.jpeg">
+            </div>
+     
+    <div class="taskbar"style="color:white">
+        HOME
+    </div>
+    <div class="taskbar" id="kk" >
+        <a href="2.html">RESOURCES</a>
+    </div>
+    <div class="taskbar">
+        <a href="3.html">AWARENESS</a>
+    </div>
+    <div class="taskbar">
+        <a href="https://www.mohfw.gov.in/pdf/FAQ.pdf">FAQs</a>
+    </div>
+      <div class="taskbar">
+          <a href="5.html">ABOUT US</a>
+    </div>
+    <div id="search">
+        <div class="box">
+       SignUp
+        </div>
+       
+    </div>
+     <div class="box" id="search">
+        Login
+        </div>
+    <span>
+    
+         <div class="box" id="search">
+        Search
+        </div>
+    <div  id="search" id="margin">
+        	<input id= "last"type="text" value="Search">
+    </div>
+</div>
+   
+<div id="second">
+    <div id="hd">
+        
+        Aarogya Setu
+    </div>
+    <div id="ol">
+    <img id="ig" src="as.png"  align="right">
+    </div>
+    <div id="con">
+    <p>Aarogya Setu is designed to keep track of other app users that a person came in contact with. It then alerts app users if any of the contacts tests positive for COVID-19. The app uses the phone's Bluetooth and GPS capabilities.The app is available in 11 languages.<span id="dots">.....</span><span id="more">
+        Aarogya Setu is an Indian open-source COVID–19 "contact tracing, syndromic mapping and self-assessment" digital service, primarily a mobile app, developed by the National Informatics Centre under the Ministry of Electronics and Information Technology. The app reached more than 100 million installs in 40 days.</span>
+        </p>
+        <button type="button" id="read" onclick="read()">READ MORE</button>
+                  <script type="text/javascript">
+            var i=0;
+            function read(){
+                if(!i){
+                    document.getElementById("more").style.display="inline";
+                    document.getElementById("dots").style.display="none";
+                     document.getElementById("read").innerHTML="READ LESS";
+                    i=1;
+                    
+                }
+                else{
+                     document.getElementById("more").style.display="none";
+                    document.getElementById("dots").style.display="inline";
+                     document.getElementById("read").innerHTML="READ MORE";
+                    i=0;
+                    
+                }
+            }
+        
+        </script>
+    
+    </div>
+    </div>
+    <div id="third">
+         <img id="qq" src="5.jpeg" align="right">
+    <h1 id="rr">Coronavirus (COVID-19)</h1>
+       
+    <p id="tt">Find the latest news, key facts and figures, contacts and phone numbers, and answers to your questions.
+        <br>
+        <button type="button" id="rd">LEARN MORE</button></p>
+        
+    </div>
+    <div class=x>
+    <h2><b>Symptoms</b></h2>
+        <div class="z">
+            <p>If you have <b>serious symptoms</b> such as difficulty breathing, <a href="">call 000</a> for urgent medical help.</p>
+            
+        </div>
+        <p><a href="">Symptoms</a> include:</p>
+        
+        <ul>
+            <li>fever</li>
+            <li>coughing</li>
+            <li>sore throat</li>
+            <li>shortness of breath</li>
+        </ul>
+        <p>If you are sick and think you might have COVID-19, check your symptoms using healthdirect's Coronavirus (COVID-19) Symptom Checker</p>
+    </div>
+    <br>
+    <br>
+    <div class=x>
+    <h2><b>Protect others and stop the spread</b></h2>
+        <div class="z">
+            <p>If you have <b>serious symptoms</b> such as difficulty breathing, <a href="">call 000</a> for urgent medical help.</p>
+            
+        </div>
+        <p>To protect others you must:</p>
+        
+        <ul>
+            <li><a href="">practise good hygiene </a></li>
+            <li>practise <a href="">physical distancing</a></li>
+            <li>follow the <a href="">limits for public gatherings</a></li>
+            <li>understand how to <a href="">isolate if you need to</a>isolate if you need to</li>
+        </ul>
+ 
+         <div class="z">
+            <p>If you have a confirmed case, you must <a href="">isolate yourself</a> to stop the virus spreading to other people.</p>
+            
+        </div>
+    </div>
+</body>
+</html>
+    
